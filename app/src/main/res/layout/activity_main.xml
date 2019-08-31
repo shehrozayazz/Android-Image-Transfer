@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+ <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Enter Name :"
+       android:layout_marginTop="70dp"
+       android:textSize="20sp"
+       android:id="@+id/tvName"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvName"
+        android:id="@+id/etName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email :"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/etName"
+        android:textSize="20sp"
+        android:id="@+id/tvEmail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvEmail"
+        android:id="@+id/etEmail"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password :"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/etEmail"
+        android:textSize="20sp"
+        android:id="@+id/tvPass"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/tvPass"
+        android:id="@+id/etPass"
+        />
+
+     <Button
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:id="@+id/btnSend"
+         android:text="Send to MySql"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/etPass"
+      />
+
+
+</RelativeLayout>
