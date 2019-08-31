@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
     Button button;
     EditText etName,etEmail,etPass;
-    String server_url="http://192.168.1.3/android/info.php";
+    // Replace X-X-X With Your IP Address
+    String server_url="http://X-X-X/android/info.php";
     AlertDialog.Builder builder;
 
 
